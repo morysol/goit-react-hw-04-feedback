@@ -1,0 +1,18 @@
+.list {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.item {
+  /* widt   h: 400px; */
+  padding: 15px 0;
+  text-align: center;
+  background-color: bisque;
+}
+
+.positive {
+  composes: item;
+  color: darkcyan;
+}
